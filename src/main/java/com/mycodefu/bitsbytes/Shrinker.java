@@ -40,6 +40,7 @@ public static TestMessageType forCode(Byte b) {
 				for(TestMessageType messageType : TestMessageType.values()) {
 					codeToValue.put(messageType.code, messageType);
 				}
+				hasFilledMap = true;
 			}
 		}
 	}
